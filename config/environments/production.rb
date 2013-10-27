@@ -80,7 +80,7 @@ Pinteresting::Application.configure do
 
   # Required for Heroku
   # Note to set it to actual host name
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'http://omr-marco-pinteresting.herokuapp.com/' }
 
   # Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
